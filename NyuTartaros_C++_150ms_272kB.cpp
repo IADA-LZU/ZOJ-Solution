@@ -2,6 +2,7 @@
 #include <cstdio>
 
 using namespace std;
+
 double count(int a, int b)
 {
     if(a%2==0)
@@ -17,7 +18,7 @@ int main()
     int i,n;
     int a,b;
     cin>>n;
-    for(i=1; i<=n;i++)
+    for(i=1;i<=n;i++)
     {
         cin>>a>>b;
         cout<<"Scenario #"<<i<<":"<<endl;
